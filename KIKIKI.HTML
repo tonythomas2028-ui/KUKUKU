@@ -1,134 +1,37 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Sample Page</title>
-
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
-
-        body {
-            background: linear-gradient(135deg, #111, #222);
-            color: white;
-        }
-
-        header {
-            background: #000;
-            padding: 20px;
-            text-align: center;
-            font-size: 24px;
-            letter-spacing: 2px;
-        }
-
-        nav {
-            display: flex;
-            justify-content: center;
-            background: #111;
-            padding: 10px;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-            transition: 0.3s;
-        }
-
-        nav a:hover {
-            color: yellow;
-        }
-
-        .hero {
-            height: 80vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            background: linear-gradient(to right, #000, #333);
-        }
-
-        .hero h1 {
-            font-size: 50px;
-            color: yellow;
-        }
-
-        .content {
-            padding: 40px;
-            text-align: center;
-        }
-
-        .card {
-            background: #222;
-            padding: 20px;
-            margin: 20px;
-            border-radius: 10px;
-            display: inline-block;
-            width: 250px;
-            transition: 0.3s;
-        }
-
-        .card:hover {
-            transform: scale(1.05);
-            background: #333;
-        }
-
-        footer {
-            background: #000;
-            text-align: center;
-            padding: 15px;
-            margin-top: 20px;
-        }
-    </style>
+    <title>Simple Page</title>
 </head>
 
 <body>
 
-    <header>
-        MY WEBSITE
-    </header>
+    <h1>Welcome Tony</h1>
 
-    <nav>
-        <a href="#">Home</a>
-        <a href="#">About</a>
-        <a href="#">Services</a>
-        <a href="#">Contact</a>
-    </nav>
+    <p>This is a simple HTML page.</p>
 
-    <section class="hero">
-        <div>
-            <h1>Welcome Tony 🔥</h1>
-            <p>Build something amazing today</p>
-        </div>
-    </section>
+    <h2>About Me</h2>
+    <p>I am learning HTML.</p>
 
-    <section class="content">
-        <h2>Our Services</h2>
+    <h2>My Links</h2>
+    <a href="https://www.google.com">Go to Google</a>
 
-        <div class="card">
-            <h3>Web Design</h3>
-            <p>Modern and responsive designs</p>
-        </div>
+    <h2>My List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+    </ul>
 
-        <div class="card">
-            <h3>Development</h3>
-            <p>Fast and scalable websites</p>
-        </div>
+    <h2>Image</h2>
+    <img src="https://via.placeholder.com/150" alt="Sample Image">
 
-        <div class="card">
-            <h3>SEO</h3>
-            <p>Grow your online presence</p>
-        </div>
-    </section>
-
-    <footer>
-        © 2026 My Website | All Rights Reserved
-    </footer>
+    <h2>Form</h2>
+    <form>
+        Name: <input type="text"><br><br>
+        Password: <input type="password"><br><br>
+        <input type="submit" value="Submit">
+    </form>
 
 </body>
 </html>
